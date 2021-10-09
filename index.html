@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      section{
+        width: 100%;
+        height: 93vh;
+        background: url('./najla.jpg');
+        background-size: cover;
+      }
+      section::before{
+        background-color: rgba(0,0,0,0.25);
+      }
+      .heading-text{
+        font-family: 'Birthstone', cursive;
+        font-size: 3.5em;
+        color: #fff;
+        text-shadow: 2px 1px 7px rgba(24, 47, 93, 1);
+        text-align: center;
+      }
+      .happy{
+        margin-top: 34vh;
+      }
+      .cloud-bg{
+        width: 100%;
+        height: 200px;
+        margin-top: -140px;
+        background-size: cover;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3cpath d='M1488 560L0 560 L0 357.87Q8.34 294.21%2c 72 302.55Q126.86 237.41%2c 192 292.27Q279.83 260.1%2c 312 347.93Q355.85 319.78%2c 384 363.64Q406.62 266.25%2c 504 288.87Q581.4 246.27%2c 624 323.67Q695.11 274.78%2c 744 345.89Q818.98 300.87%2c 864 375.85Q895.16 287.01%2c 984 318.18Q1054.85 269.03%2c 1104 339.88Q1158.95 322.84%2c 1176 377.79Q1202.22 332.01%2c 1248 358.23Q1300.8 291.03%2c 1368 343.84Q1396.83 252.67%2c 1488 281.5z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1560 560L0 560 L0 413.59Q47.65 389.24%2c 72 436.88Q92.2 337.08%2c 192 357.28Q267.2 312.48%2c 312 387.67Q385.17 340.84%2c 432 414.01Q483.37 393.38%2c 504 444.75Q529.04 349.79%2c 624 374.84Q703.8 334.64%2c 744 414.44Q749.79 348.23%2c 816 354.02Q881.86 347.88%2c 888 413.74Q955.56 361.3%2c 1008 428.85Q1076.98 377.83%2c 1128 446.81Q1144.91 391.73%2c 1200 408.64Q1266.01 354.65%2c 1320 420.66Q1391.73 372.39%2c 1440 444.13Q1481 365.13%2c 1560 406.13z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 479.68Q30.72 390.4%2c 120 421.12Q163.31 392.44%2c 192 435.75Q276.81 400.56%2c 312 485.36Q356.11 457.47%2c 384 501.58Q451.45 449.03%2c 504 516.48Q521.25 461.73%2c 576 478.97Q619.77 402.74%2c 696 446.51Q724.02 402.53%2c 768 430.56Q827.74 418.3%2c 840 478.04Q881.54 399.58%2c 960 441.11Q1057.83 418.94%2c 1080 516.76Q1085.44 450.2%2c 1152 455.64Q1205.75 389.39%2c 1272 443.14Q1364.81 415.95%2c 1392 508.76Q1442.81 439.56%2c 1512 490.37z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 519.03Q26.95 473.98%2c 72 500.92Q124.87 481.79%2c 144 534.67Q192.47 463.14%2c 264 511.61Q289.42 465.03%2c 336 490.45Q394.1 476.55%2c 408 534.66Q456.7 511.36%2c 480 560.05Q494.82 502.87%2c 552 517.69Q576.02 469.72%2c 624 493.74Q717.38 467.12%2c 744 560.49Q753.39 497.88%2c 816 507.28Q858.32 477.6%2c 888 519.92Q969.15 481.07%2c 1008 562.22Q1053.53 487.75%2c 1128 533.28Q1170.36 503.64%2c 1200 546Q1214.01 488.01%2c 1272 502.02Q1338.15 448.17%2c 1392 514.32Q1457.64 459.96%2c 1512 525.6z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+      }
+      h4, p, center, footer{
+        font-family: 'Poppins', Sans-Serif;
+      }
+      p{
+        font-size: 0.85em;
+      }
+      center{
+        font-size: 0.85em;
+      }
+      footer{
+        font-size: 0.7em;
+      }
+    </style>
+    <img src="./birthday-dec.png" class="w-100 fixed-top"/>
+    <section>
+      <svg viewbox="0 0 140 140"
+            width="25vh"
+            class="ms-5 mt-5">
+        <path fill="gold">
+          <animate 
+            attributeName="d" 
+            dur="1440ms" 
+            repeatCount="indefinite"
+            values="M 10,110 L 10,10 L 40,50 L 70,10 L 100,50 L 130,10 L 130,110 z;M 30,110 L 0,0 L 50,50 L 70,0 L 90,50 L 140,0 L 110,110 z;M 10,110 L 10,10 L 40,50 L 70,10 L 100,50 L 130,10 L 130,110 z;"
+				  />
+        </path>
+      </svg>
+      <div class="heading-text happy">
+        Happy Birthday<br/>
+        - Najla -
+      </div>
+    </section>
+    <div class="cloud-bg"></div>
+    <div class="pt-5 container">
+      <h4>Dear Najla,</h4>
+      <p class="my-5">
+        <b>Sorry, </b>
+          <br>Bahkan Di Saat Ini Di Buat,
+          <br>Aku Gak Tau Harus Tulis Apa.
+          <br>Tapi Yang Jelas,
+          <br>Ada Beberapa Hal
+          <br>Yang Mau Aku Sampain Ke Najla.
+            <br>
+          <br>
+            <br>
+        <center>
+          <img src="cantikbener.jpg" width="175px" height="170px" class="rounded-circle">
+          <br>
+            <br>
+          <b>Happy Milad Yaa Cantik❤</b>
+            <br>
+          <b>Wish You All The Best!</b>
+          <br>
+            <br>
+          "Jadikanlah Bertambahnya Usia Najla Saat Ini Sebagai Pelajaran Kalau Hidup Terus Berjalan Mengikuti Waktu. Jangan Sia - Siakan Walaupun Hanya Sedetik Aja. Semoga Najla Bisa Bertemu Orang Yang Tidak Akan Membuat Najla Mencari Lagi."
+        </center>
+      </p>
+      
+      <p class="text-center px-3 pb-5">
+        Ohh yaa, Terimakasih Juga Yaa Cantik. Udah Mau Dengerin, Percaya, Kasih Positive Energy Kemarin. Dunia Ini Luas, Hidup Ini Juga Terbilang Singkat Dan Cepat. Jangan Buang Buang Waktu Tungguin Aku Yang Masih Usaha Dari Nol.
+        <br>
+          <br>
+        Mungkin Hanya "Coretan" Kecil Ini Yang Bisa Aku Kasih Ke Najla, Sorry Dan Sekali Lagi Terimakasih :')
+      </p>
+      <footer class="text-center pb-5">
+        Build With ❤ By Hidayat, 9 Oktober 2021
+      </footer>
+    </div>
+    <script type="text/javascript">
+      var sound = new Howl({
+        src: ['music.mp3'],
+        autoplay: true,
+        loop: true,
+        onend: function() {
+          console.log('Finished!');
+        }
+      });
+      sound.play();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+  </body>
+</html>
